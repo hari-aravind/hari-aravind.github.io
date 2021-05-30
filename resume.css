@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    border: 1px double red;
+   
+    padding-left: 4px;
+    padding-top: 20px;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+}
+.listing-order{
+    list-style: none;
+}
+.separator{
+    padding: 5px;
+}
+.aboutself{
+    width: 70%;
+    padding: 40px;
+}
+.passport{
+    width: 30px;
+
+}
+
+.img-adjust{
+    width:100%;
+    height: 180px;
+    min-width: 112px;
+    border: 3px solid rgb(204, 204, 204);
+    background: rgba(111, 198, 233, 0);
+    margin: auto;
+    padding: 15px 10px;
+}
+
+.table-part{
+    justify-content: center;
+    display: flex;
+}
+table,th,tr,td{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+tr th{
+    padding: 0px 10px 0 10px;
+    background-color: rgb(91, 230, 102);
+}
+
+tr td{
+    text-align:center;
+}
+.skills{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.lang{
+    display: flex;
+}
+.lang div:first-child{
+    width: 40%;
+    padding-left: 20px;
+}
+.lang div:last-child{
+    width: 60%;
+}
+.bar{
+    width: 95%;
+}
+.personal-details{
+    width: 70%;
+    margin:auto ;
+}
+.detail{
+    display: flex;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 2.0;
+    font-size: 1rem;
+}
+.detail div:first-child{
+    width:60%;
+}
+.detail div:last-child{
+    width:40%;
+
+}
